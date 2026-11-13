@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #243f68;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #172b4d;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+.introducao, .sobre {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.noticia {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.noticia img {
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.noticia h3 {
+    color: #243f68;
+}
+
+footer {
+    background-color: #172b4d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
