@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 50px 15px;
+}
+
+main {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #243f68;
+}
+
+p {
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+button {
+    background-color: #243f68;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #172b4d;
+}
+
+#mensagem {
+    font-weight: bold;
+    margin: 20px;
+}
